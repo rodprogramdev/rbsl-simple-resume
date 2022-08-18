@@ -27,18 +27,25 @@
 
         }
 
+        @media screen and (max-width: 600px) {
+            body{background-size: cover;
+            background-position: 50% 50%;
+            background-attachment:fixed;
+            }
+        }
        
+
 
         .header {
             margin-left: 20px;
             margin-bottom: 30px;
         }
 
-        .header__container{
-            display:flex;
+        .header__container {
+            display: flex;
         }
 
-      
+
 
         hr {
             height: 4px;
@@ -55,12 +62,37 @@
         }
 
         @media screen and (max-width: 600px) {
-          .header img{
-            position: absolute;
-             top: 20%;
-             left: 50%;
-             transform: translate(-50%,-50%);   
-           }
+
+            .header{
+                margin:0;
+                padding:0;
+            }
+            .header__container{
+                background-color: rgba(0, 0, 0, 0.714);
+                color: white;
+                height: 100vh;
+                padding: 0;
+                font-size: 1rem;
+               
+                
+            }
+            .header img {
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+            }
+
+            .header__table {
+                margin-top: 50%;
+            }
+
+            br{
+                display:none;
+            }
+
+
         }
 
         h1 {
@@ -163,22 +195,27 @@
                         <h1>Rodrigo Bonzerr S. Lopez</h1>
                         <p>I am a computer scientist, certified Marvel geek,<br>
                             a photography enthusiast and a lifetime learner.<br><br>
-    
+
                             My personal motto about learning is:<br><br>
                             <em>"Learning is finding your purpose. Find your purpose
                                 and <br>you'll be the wisest man who ever lived." </em>
                         </p>
-    
+
                     </td>
                 </table>
             </div>
-    
-    
-    
+
+
+
         </div>
 
-        
+
     </header>
+    <aside>
+        <div class="aside__image">
+            
+        </div>
+    </aside>
     <section class="section--0">
         <hr>
         <table>
