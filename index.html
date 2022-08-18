@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Lopez - Resume</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <style>
         * {
             padding: 0;
@@ -24,13 +24,21 @@
             background-color: lightyellow;
             background-attachment: fixed;
             color: black;
-           
+
         }
+
+       
 
         .header {
             margin-left: 20px;
             margin-bottom: 30px;
         }
+
+        .header__container{
+            display:flex;
+        }
+
+      
 
         hr {
             height: 4px;
@@ -46,24 +54,33 @@
             border: 2px solid black;
         }
 
+        @media screen and (max-width: 600px) {
+          .header img{
+            position: absolute;
+             top: 20%;
+             left: 50%;
+             transform: translate(-50%,-50%);   
+           }
+        }
+
         h1 {
             font-weight: 500;
         }
 
         h3 {
             text-transform: uppercase;
-           /* font-weight: 500;*/
+            /* font-weight: 500;*/
         }
 
-        .table-skills{
-            border-spacing:20px;
+        .table-skills {
+            border-spacing: 20px;
         }
 
         th {
-          /*  font-weight: 400;*/
+            /*  font-weight: 400;*/
             color: black;
-            padding-right:35px;
-           
+            padding-right: 35px;
+
             /*        background-color:green;*/
         }
 
@@ -107,23 +124,23 @@
             margin-left: 20px;
         }
 
-        /*FOOTER SECTION*/     
-        .footer{
+        /*FOOTER SECTION*/
+        .footer {
             height: 20vh;
             width: 64.3%;
-            background-color: rgb(22,19,19);
-            color:white;
-            text-align:center;
-            padding-top:60px;
-        }   
+            background-color: rgb(22, 19, 19);
+            color: white;
+            text-align: center;
+            padding-top: 60px;
+        }
     </style>
 </head>
 
 <body>
     <header class="header">
-        <table>
+        <!-- <table>
             <tr>
-                <td><img src="images/Rod.jpg" alt="Profile Picture"></td>
+                <td class="header__td--img"><img src="images/Rod.jpg" alt="Profile Picture"></td>
                 <td>
                     <h1>Rodrigo Bonzerr S. Lopez</h1>
                     <p>I am a computer scientist, certified Marvel geek,<br>
@@ -137,10 +154,30 @@
                 </td>
             </tr>
 
-        </table>
+        </table> -->
+        <div class="header__container">
+            <div class="header__img"><img src="images/Rod.jpg" alt="Profile Picture"></div>
+            <div class="header__table">
+                <table>
+                    <td>
+                        <h1>Rodrigo Bonzerr S. Lopez</h1>
+                        <p>I am a computer scientist, certified Marvel geek,<br>
+                            a photography enthusiast and a lifetime learner.<br><br>
+    
+                            My personal motto about learning is:<br><br>
+                            <em>"Learning is finding your purpose. Find your purpose
+                                and <br>you'll be the wisest man who ever lived." </em>
+                        </p>
+    
+                    </td>
+                </table>
+            </div>
+    
+    
+    
+        </div>
 
-
-
+        
     </header>
     <section class="section--0">
         <hr>
@@ -245,12 +282,12 @@
             <tr>
                 <td>Computer Repair</td>
                 <td>⭐⭐⭐⭐⭐</td>
-                
+
             </tr>
             <tr>
                 <td>Computer Networks</td>
                 <td>⭐⭐⭐⭐⭐</td>
-                
+
             </tr>
         </table>
     </section>
@@ -338,11 +375,12 @@
         <table>
             <tr>
                 <td class="td__empty"></td>
-                <td style="padding-left:72px;">I was an invited facilitator and trainer in the Office of Civil Defense<br>
+                <td style="padding-left:72px;">I was an invited facilitator and trainer in the Office of Civil
+                    Defense<br>
                     for the "Module 3: Advance Training for NSRC Officers and Leaders" last<br>
                     November 10-11, 2012 that was held at the Lapu-lapu Hall, AFPRESCOM<br>
                     Camp Aguinaldo, Quezon City.
-                    
+
                 </td>
             </tr>
             <tr>
@@ -367,11 +405,12 @@
         <table>
             <tr>
                 <td class="td__empty"></td>
-                <td style="padding-left:72px;">I am an experience instructor that has conducted a number of lectures and seminars<br>
+                <td style="padding-left:72px;">I am an experience instructor that has conducted a number of lectures and
+                    seminars<br>
                     to different walks of life. I have been an invited speaker for disaster preparedness<br>
                     by a number of universities and colleges for training and development of students,<br>
                     teaching personnel and non-teaching employees. Some of the lectures I've done<br>
-                    are related to first aid management, personal protection, safety and health. 
+                    are related to first aid management, personal protection, safety and health.
                 </td>
             </tr>
             <tr>
