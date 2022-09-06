@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    background-image: url("../images/arresting.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-color: lightyellow;
+    background-attachment: fixed;
+    color: black;
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        background-image: linear-gradient(to right bottom, #ddb4a7e9, #74bccb8f), url("images/arresting.jpg");
+    }
+
+    h3 {
+        overflow: hidden;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .address {
+        position: absolute;
+        left: 10%;
+
+
+    }
+
+    .section--1 {
+        margin-top: 8%;
+    }
+}
+
+
+
+.header {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.header__container {
+    display: flex;
+}
+
+.header__table {
+    padding: 0 2% 0 2%;
+}
+
+
+hr {
+    height: 4px;
+    width: 59%;
+    border-left: 0;
+    border-right: 0;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header__container {
+        background-color: rgba(0, 0, 0, 0.714);
+        color: white;
+        height: 80vh;
+        padding: 0;
+        font-size: 1rem;
+
+
+    }
+
+    .header img {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+
+    .header__table {
+        
+        margin-top: 60%;
+        /* padding: 0 2% 0 2%; */
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .table-skills td {
+
+        left: 10%;
+        display: flex;
+        font-size: 1rem;
+       
+
+    }
+
+
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h3 {
+    text-transform: uppercase;
+    /* font-weight: 500;*/
+}
+
+.table-skills {
+    border-spacing: 20px;
+}
+
+th {
+    /*  font-weight: 400;*/
+    color: black;
+    padding-right: 35px;
+
+    /*        background-color:green;*/
+}
+
+td {
+    padding: 5px 0 3px 25px;
+    /*background-color:peachpuff;*/
+}
+
+.td__empty {
+    /*background-color: orangered;*/
+    padding-left: 100px;
+}
+
+
+/*SECTIONS 0 to 6*/
+.section--0 {
+    margin-left: 20px;
+}
+
+.section--1 {
+    margin-left: 20px;
+}
+
+.section--2 {
+    margin-left: 20px;
+}
+
+.section--3 {
+    margin-left: 20px;
+}
+
+.section--4 {
+    margin-left: 20px;
+}
+
+.section--5 {
+    margin-left: 20px;
+}
+
+.section--6 {
+    margin-left: 20px;
+}
+
+.music{
+    /* height: 100vh; */
+    width: 30%;
+    margin: 2% 20%;
+    background-color: rgb(19, 17, 17);
+    
+}
+
+iframe{
+    background-color: gray;
+}
+/*FOOTER SECTION*/
+.footer {
+    height: 20vh;
+    /* width: 64.3%; */
+    width: 100%;
+    background-color: rgb(22, 19, 19);
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        width: 100%
+    }
+
+
+
+    .music{
+        width: 80%;
+        margin: 5% auto;
+        border-radius: 5%;
+        /* box-shadow: 15px 5px 5px solid black; */
+        /* box-shadow: -11px 2px 21px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: -11px 2px 21px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px 2px 21px -3px rgba(0,0,0,0.75); */
+
+box-shadow: -4px 24px 21px -11px rgba(0,0,0,0.75);
+-webkit-box-shadow: -4px 24px 21px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 24px 21px -11px rgba(0,0,0,0.75);
+    }
+
+    iframe{
+        height: 200px;
+        border-radius: 3%;
+        
+
+    }
+}
