@@ -8,10 +8,10 @@ body {
   margin-top: 10px;
   font-family: "Open Sans", sans-serif;
   color: gray;
-  background-image: url("../images/arresting.jpg");
+  background-image: url("../images/arnis.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 100% 70%;
   background-color: lightyellow;
   background-attachment: fixed;
   color: black;
@@ -72,7 +72,7 @@ body {
 
 hr {
   height: 4px;
-  width: 59%;
+  width: 50%;
   border-left: 0;
   border-right: 0;
 }
